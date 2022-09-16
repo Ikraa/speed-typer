@@ -8,6 +8,7 @@ const modalBackground = document.getElementById("modal-background");
 // variables
 let userText = "";
 let errorCount = 0;
+
 let startTime;
 let questionText = "";
 
@@ -35,6 +36,7 @@ const typeController = (e) => {
 
   // if it is not a valid character like Control/Alt then skip displaying anything
   if (!validLetters.includes(newLetter)) {
+ 
     return;
   }
 
@@ -58,6 +60,7 @@ const validate = (key) => {
   if (key === questionText[userText.length - 1]) {
     return true;
   }
+  errorCount=errorCount+1
   return false;
 };
 
@@ -124,7 +127,7 @@ const start = () => {
     }
     count--;
   }, 1000);
-  console.log(countdownOverlay)
+  
 
   
 };
