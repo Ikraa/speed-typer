@@ -12,10 +12,17 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="blog.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="bg-white min-h-screen text-black">
     <main class="mx-auto w-[90%] grid gap-5 pt-10">
-      <h2 class="card-title text-3xl">Question & Answer:-</h2>
+      <h2 class="card-title text-3xl m-auto">Question & Answer</h2>
       <div class="card custom-shadow">
         <div class="card-body">
           <h2 class="card-title">
@@ -40,30 +47,52 @@
             What is difference between Global scope and Block scope?
           </h2>
           <p>
-            <span class="font-bold">Answer:</span> The variables defined outside of any function or curly brackets are known as global variables and have global scope. Global scope means that the variables can be accessed from any part of that program, any function or conditional state can access that variable.
-            Block scope is also a sub-type of local scope. The block scope can be defined as the scope of the variables inside the curly brackets {}. Now, these curly brackets can be of loops, or conditional statements, or something else. this is only allowed to refer to these variables from within the curly brackets {}.
+            <span class="font-bold">Answer:</span> The variables defined outside
+            of any function or curly brackets are known as global variables and
+            have global scope. Global scope means that the variables can be
+            accessed from any part of that program, any function or conditional
+            state can access that variable. Block scope is also a sub-type of
+            local scope. The block scope can be defined as the scope of the
+            variables inside the curly brackets {}. Now, these curly brackets
+            can be of loops, or conditional statements, or something else. this
+            is only allowed to refer to these variables from within the curly
+            brackets {}.
           </p>
         </div>
       </div>
       <div class="card custom-shadow">
         <div class="card-body">
-          <h2 class="card-title">
-            How does work "Event loop" in javascript?
-          </h2>
+          <h2 class="card-title">How does work "Event loop" in javascript?</h2>
           <p>
-            <span class="font-bold">Answer:</span> An event loop is often the main loop in a program that typically waits for the user to trigger something.It has one simple job to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it. Such an iteration is called a tick in the Event Loop.
+            <span class="font-bold">Answer:</span> An event loop is often the
+            main loop in a program that typically waits for the user to trigger
+            something.It has one simple job to monitor the Call Stack and the
+            Callback Queue. If the Call Stack is empty, the Event Loop will take
+            the first event from the queue and will push it to the Call Stack,
+            which effectively runs it. Such an iteration is called a tick in the
+            Event Loop.
           </p>
         </div>
       </div>
       <div class="card custom-shadow">
         <div class="card-body">
-          <h2 class="card-title">
-            Many type of Undefined in javascript?
-          </h2>
+          <h2 class="card-title">Many type of Undefined in javascript?</h2>
           <p>
-            <span class="font-bold">Answer:</span> We can fine many type of undefind in javascript.That are given below:-<br>
-            A variable that has not been assigned a value is of type undefined . The datatype of a variable that holds an undefined value is also 'undefined'. A method or statement also returns undefined if the variable that is being evaluated does not have an assigned value. A function returns undefined if a value was not returned.
+            <span class="font-bold">Answer:</span> We can fine many type of
+            undefind in javascript.That are given below:-<br />
+            A variable that has not been assigned a value is of type undefined .
+            The datatype of a variable that holds an undefined value is also
+            'undefined'. A method or statement also returns undefined if the
+            variable that is being evaluated does not have an assigned value. A
+            function returns undefined if a value was not returned.
           </p>
+        </div>
+      </div>
+      <div class="card custom-shadow mb-10">
+        <div class="card-body text-green-700">
+          <h2 class="card-title m-auto">
+            <i class="fa-solid fa-arrow-left mt-1"></i><a href="/index.html">Blog</a>
+          </h2>
         </div>
       </div>
     </main>
