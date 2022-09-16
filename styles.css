@@ -20,6 +20,7 @@ header a{
   cursor: pointer;
   font-weight: 500;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .box-container {
